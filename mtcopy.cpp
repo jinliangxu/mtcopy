@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 	if(argc!=4)
 	{
 		cerr<<"Usage:"<<endl
-			<<"\tmthread <source file> <destination file> <thread number>"<<endl;
+			<<"\tmtcopy <source file> <destination file> <number of threads>"<<endl;
 		return -1;
 	}
 	
