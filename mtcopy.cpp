@@ -4,7 +4,7 @@
 * Usage:
 * 	mthread <source file> <destination file> <thread number>
 * 
-* Multi-thread study, By Liang, 2014/03/03, Nantong
+* Multi-thread study, By Liang, 2014/03/03
 ************************************************/
 
 #include "mtcopy.h"
