@@ -9,6 +9,9 @@ Usage:
   g++ -o mtcopy mtcopy.cpp -lpthread
   g++ -o mtcopy mtcopy.cpp -pthread
 
+  For debug logs plase add "-D_DEBUG" to compiler options. For example,
+  g++ -D_DEBUG -o mtcopy mtcopy.cpp -lpthread
+
 2. execute
   ./mtcopy <source file> <dest file> <num of threads>
 
