@@ -54,6 +54,7 @@ void * thread_copy(void *fi)
     close(fdin);
     close(fdout);
 
+	return nullptr;
 }
 
 
